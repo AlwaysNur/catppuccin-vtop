@@ -36,15 +36,19 @@
 
 ## Usage
 
-1. Download the flavor of your choice.
-2. Open the app and go to **Preferences** > **Appearance** > **Import theme**.
-3. Select the downloaded flavor file.
+1. Download the flavor with the accent of your choice with the from `themes/<flavor>/catppuccin-<flavor>-<accent>.json`.
+2. Copy the flavor into your **global** node_modules directory: `sudo cp <The file you just downloaded> $(npm root -g)/vtop/themes/`
+3. Run vtop and load the custom theme: `vtop --theme catppuccin-<flavor>-<accent>`
 
 <!-- The FAQ section is optional. Remove if needed.-->
 ## 🙋 FAQ
 
-- Q: **_"How can I do X?"_**\
-  A: ...
+- Q: **_"How can I make this the default theme?"_**\
+  A: Add this line into your `.bashrc`/`.zshrc`:
+
+  ```bash
+  alias vtop="vtop --theme catppuccin-<flavor>-<accent>"
+  ```
 
 ## 💝 Thanks to
 
