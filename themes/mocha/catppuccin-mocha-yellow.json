@@ -1,0 +1,35 @@
+{
+	"name": "Catppuccin Mocha with yellow accent",
+	"author": "AlwaysNur",
+	"title": {
+		"fg": "#cdd6f4"	
+	},
+	"chart": {
+		"fg": "#f9e2af",
+		"border": {
+			"type": "line",
+			"fg": "#6c7086"
+		}
+	},
+	"table": {
+		"fg": "#cdd6f4",
+		"items": {
+			"selected": {
+				"bg": "#f9e2af",
+				"fg": "#313244"
+			},
+			"item": {
+				"fg": "#bac2de"
+			}
+		},
+		"border": {
+			"type": "line",
+			"fg": "#6c7086"	
+		}
+	},
+	"footer": {
+		"fg": "#cdd6f4"
+	}
+}
+
+

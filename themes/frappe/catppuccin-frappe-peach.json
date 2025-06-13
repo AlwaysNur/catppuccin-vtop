@@ -1,0 +1,35 @@
+{
+	"name": "Catppuccin Frappé with peach accent",
+	"author": "AlwaysNur",
+	"title": {
+		"fg": "#c6d0f5"	
+	},
+	"chart": {
+		"fg": "#ef9f76",
+		"border": {
+			"type": "line",
+			"fg": "#737994"
+		}
+	},
+	"table": {
+		"fg": "#c6d0f5",
+		"items": {
+			"selected": {
+				"bg": "#ef9f76",
+				"fg": "#414559"
+			},
+			"item": {
+				"fg": "#b5bfe2"
+			}
+		},
+		"border": {
+			"type": "line",
+			"fg": "#737994"	
+		}
+	},
+	"footer": {
+		"fg": "#c6d0f5"
+	}
+}
+
+

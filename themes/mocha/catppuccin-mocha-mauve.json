@@ -1,0 +1,35 @@
+{
+	"name": "Catppuccin Mocha with mauve accent",
+	"author": "AlwaysNur",
+	"title": {
+		"fg": "#cdd6f4"	
+	},
+	"chart": {
+		"fg": "#cba6f7",
+		"border": {
+			"type": "line",
+			"fg": "#6c7086"
+		}
+	},
+	"table": {
+		"fg": "#cdd6f4",
+		"items": {
+			"selected": {
+				"bg": "#cba6f7",
+				"fg": "#313244"
+			},
+			"item": {
+				"fg": "#bac2de"
+			}
+		},
+		"border": {
+			"type": "line",
+			"fg": "#6c7086"	
+		}
+	},
+	"footer": {
+		"fg": "#cdd6f4"
+	}
+}
+
+

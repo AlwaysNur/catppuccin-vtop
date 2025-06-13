@@ -1,0 +1,35 @@
+{
+	"name": "Catppuccin Macchiato with yellow accent",
+	"author": "AlwaysNur",
+	"title": {
+		"fg": "#cad3f5"	
+	},
+	"chart": {
+		"fg": "#eed49f",
+		"border": {
+			"type": "line",
+			"fg": "#6e738d"
+		}
+	},
+	"table": {
+		"fg": "#cad3f5",
+		"items": {
+			"selected": {
+				"bg": "#eed49f",
+				"fg": "#363a4f"
+			},
+			"item": {
+				"fg": "#b8c0e0"
+			}
+		},
+		"border": {
+			"type": "line",
+			"fg": "#6e738d"	
+		}
+	},
+	"footer": {
+		"fg": "#cad3f5"
+	}
+}
+
+

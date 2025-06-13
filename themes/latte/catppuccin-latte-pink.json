@@ -1,0 +1,35 @@
+{
+	"name": "Catppuccin Latte with pink accent",
+	"author": "AlwaysNur",
+	"title": {
+		"fg": "#4c4f69"	
+	},
+	"chart": {
+		"fg": "#ea76cb",
+		"border": {
+			"type": "line",
+			"fg": "#9ca0b0"
+		}
+	},
+	"table": {
+		"fg": "#4c4f69",
+		"items": {
+			"selected": {
+				"bg": "#ea76cb",
+				"fg": "#ccd0da"
+			},
+			"item": {
+				"fg": "#5c5f77"
+			}
+		},
+		"border": {
+			"type": "line",
+			"fg": "#9ca0b0"	
+		}
+	},
+	"footer": {
+		"fg": "#4c4f69"
+	}
+}
+
+

@@ -1,0 +1,35 @@
+{
+	"name": "Catppuccin Frappé with teal accent",
+	"author": "AlwaysNur",
+	"title": {
+		"fg": "#c6d0f5"	
+	},
+	"chart": {
+		"fg": "#81c8be",
+		"border": {
+			"type": "line",
+			"fg": "#737994"
+		}
+	},
+	"table": {
+		"fg": "#c6d0f5",
+		"items": {
+			"selected": {
+				"bg": "#81c8be",
+				"fg": "#414559"
+			},
+			"item": {
+				"fg": "#b5bfe2"
+			}
+		},
+		"border": {
+			"type": "line",
+			"fg": "#737994"	
+		}
+	},
+	"footer": {
+		"fg": "#c6d0f5"
+	}
+}
+
+

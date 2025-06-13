@@ -1,0 +1,35 @@
+{
+	"name": "Catppuccin Latte with sapphire accent",
+	"author": "AlwaysNur",
+	"title": {
+		"fg": "#4c4f69"	
+	},
+	"chart": {
+		"fg": "#209fb5",
+		"border": {
+			"type": "line",
+			"fg": "#9ca0b0"
+		}
+	},
+	"table": {
+		"fg": "#4c4f69",
+		"items": {
+			"selected": {
+				"bg": "#209fb5",
+				"fg": "#ccd0da"
+			},
+			"item": {
+				"fg": "#5c5f77"
+			}
+		},
+		"border": {
+			"type": "line",
+			"fg": "#9ca0b0"	
+		}
+	},
+	"footer": {
+		"fg": "#4c4f69"
+	}
+}
+
+

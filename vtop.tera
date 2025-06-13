@@ -1,0 +1,43 @@
+---
+whiskers:
+  version: 2.1.0
+  matrix:
+    - flavor
+    - accent
+  filename: "themes/{{ flavor.identifier }}/catppuccin-{{ flavor.identifier }}-{{ accent }}.json"
+---
+{
+	"name": "Catppuccin {{ flavor.name }} with {{accent}} accent",
+	"author": "AlwaysNur",
+	"title": {
+		"fg": "#{{flavor.colors.text.hex}}"	
+	},
+	"chart": {
+		"fg": "#{{flavor.colors[accent].hex}}",
+		"border": {
+			"type": "line",
+			"fg": "#{{flavor.colors.overlay0.hex}}"
+		}
+	},
+	"table": {
+		"fg": "#{{flavor.colors.text.hex}}",
+		"items": {
+			"selected": {
+				"bg": "#{{flavor.colors[accent].hex}}",
+				"fg": "#{{flavor.colors.surface0.hex}}"
+			},
+			"item": {
+				"fg": "#{{flavor.colors.subtext1.hex}}"
+			}
+		},
+		"border": {
+			"type": "line",
+			"fg": "#{{flavor.colors.overlay0.hex}}"	
+		}
+	},
+	"footer": {
+		"fg": "#{{flavor.colors.text.hex}}"
+	}
+}
+
+
