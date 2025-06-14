@@ -6,37 +6,40 @@ whiskers:
     - accent
   filename: "themes/{{ flavor.identifier }}/catppuccin-{{ flavor.identifier }}-{{ accent }}.json"
 ---
+
+{%- set accent = flavor.colors[accent] -%}
+
 {
-	"name": "Catppuccin {{ flavor.name }} with {{accent}} accent",
-	"author": "AlwaysNur",
+	"name": "Catppuccin {{ flavor.name }} ({{ accent.name }})"",
+	"author": "Catppuccin",
 	"title": {
-		"fg": "#{{flavor.colors.text.hex}}"	
+		"fg": "#{{ text.hex }}"	
 	},
 	"chart": {
-		"fg": "#{{flavor.colors[accent].hex}}",
+		"fg": "#{{ accent.hex }}",
 		"border": {
 			"type": "line",
-			"fg": "#{{flavor.colors.overlay0.hex}}"
+			"fg": "#{{ overlay0.hex }}"
 		}
 	},
 	"table": {
-		"fg": "#{{flavor.colors.text.hex}}",
+		"fg": "#{{ text.hex }}",
 		"items": {
 			"selected": {
-				"bg": "#{{flavor.colors[accent].hex}}",
-				"fg": "#{{flavor.colors.surface0.hex}}"
+				"bg": "#{{ accent.hex }}",
+				"fg": "#{{ surface0.hex }}"
 			},
 			"item": {
-				"fg": "#{{flavor.colors.subtext1.hex}}"
+				"fg": "#{{ subtext1.hex }}"
 			}
 		},
 		"border": {
 			"type": "line",
-			"fg": "#{{flavor.colors.overlay0.hex}}"	
+			"fg": "#{{ overlay0.hex }}"	
 		}
 	},
 	"footer": {
-		"fg": "#{{flavor.colors.text.hex}}"
+		"fg": "#{{ text.hex }}"
 	}
 }
 
