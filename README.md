@@ -36,8 +36,8 @@
 
 ## Usage
 
-1. Download the flavor with the accent of your choice with the from `themes/<flavor>/catppuccin-<flavor>-<accent>.json`.
-2. Copy the flavor into your **global** node_modules directory: `sudo cp <The file you just downloaded> $(npm root -g)/vtop/themes/`
+1. Download the flavor with the accent of your choice from `themes/<flavor>/catppuccin-<flavor>-<accent>.json`.
+2. Copy the file into your vtop themes directory `<Global node modules directory>/vtop/themes`, you can find your **Global node modules directory** by running `npm root -g`
 3. Run vtop and load the custom theme: `vtop --theme catppuccin-<flavor>-<accent>`
 
 <!-- The FAQ section is optional. Remove if needed.-->
