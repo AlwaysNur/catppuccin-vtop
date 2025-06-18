@@ -50,6 +50,12 @@
   alias vtop="vtop --theme catppuccin-<flavor>-<accent>"
   ```
 
+## Building the themes
+
+Catppuccin for Vtop uses [Whiskers](https://github.com/catppuccin/whiskers).
+
+Modify the themes by editing [vtop.tera](./vtop.tera), then run `whiskers vtop.tera` (or `just build`).
+
 ## 💝 Thanks to
 
 - [AlwaysNur](https://github.com/alwaysnur)
