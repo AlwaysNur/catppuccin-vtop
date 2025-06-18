@@ -10,7 +10,7 @@ whiskers:
 {%- set accent = flavor.colors[accent] -%}
 
 {
-	"name": "Catppuccin {{ flavor.name }} ({{ accent.name }})"",
+	"name": "Catppuccin {{ flavor.name }} ({{ accent.name }})",
 	"author": "Catppuccin",
 	"title": {
 		"fg": "#{{ text.hex }}"	
