@@ -54,7 +54,7 @@
 
 Catppuccin for Vtop uses [Whiskers](https://github.com/catppuccin/whiskers).
 
-Modify the themes by editing [vtop.tera](./vtop.tera), then run `whiskers vtop.tera` (or `just build`).
+Modify the themes by editing [vtop.tera](./vtop.tera), then run `whiskers vtop.tera`.
 
 ## 💝 Thanks to
 
