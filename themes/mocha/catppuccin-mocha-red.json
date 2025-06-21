@@ -1,35 +1,33 @@
 {
-	"name": "Catppuccin Mocha (Red)",
-	"author": "Catppuccin",
-	"title": {
-		"fg": "#cdd6f4"	
-	},
-	"chart": {
-		"fg": "#f38ba8",
-		"border": {
-			"type": "line",
-			"fg": "#6c7086"
-		}
-	},
-	"table": {
-		"fg": "#cdd6f4",
-		"items": {
-			"selected": {
-				"bg": "#f38ba8",
-				"fg": "#313244"
-			},
-			"item": {
-				"fg": "#bac2de"
-			}
-		},
-		"border": {
-			"type": "line",
-			"fg": "#6c7086"	
-		}
-	},
-	"footer": {
-		"fg": "#cdd6f4"
-	}
+  "name": "Catppuccin Mocha (Red)",
+  "author": "Catppuccin",
+  "title": {
+    "fg": "#cdd6f4"
+  },
+  "chart": {
+    "fg": "#f38ba8",
+    "border": {
+      "type": "line",
+      "fg": "#6c7086"
+    }
+  },
+  "table": {
+    "fg": "#cdd6f4",
+    "items": {
+      "selected": {
+        "bg": "#f38ba8",
+        "fg": "#313244"
+      },
+      "item": {
+        "fg": "#bac2de"
+      }
+    },
+    "border": {
+      "type": "line",
+      "fg": "#6c7086"
+    }
+  },
+  "footer": {
+    "fg": "#cdd6f4"
+  }
 }
-
-

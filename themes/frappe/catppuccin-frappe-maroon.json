@@ -1,35 +1,33 @@
 {
-	"name": "Catppuccin Frappé (Maroon)",
-	"author": "Catppuccin",
-	"title": {
-		"fg": "#c6d0f5"	
-	},
-	"chart": {
-		"fg": "#ea999c",
-		"border": {
-			"type": "line",
-			"fg": "#737994"
-		}
-	},
-	"table": {
-		"fg": "#c6d0f5",
-		"items": {
-			"selected": {
-				"bg": "#ea999c",
-				"fg": "#414559"
-			},
-			"item": {
-				"fg": "#b5bfe2"
-			}
-		},
-		"border": {
-			"type": "line",
-			"fg": "#737994"	
-		}
-	},
-	"footer": {
-		"fg": "#c6d0f5"
-	}
+  "name": "Catppuccin Frappé (Maroon)",
+  "author": "Catppuccin",
+  "title": {
+    "fg": "#c6d0f5"
+  },
+  "chart": {
+    "fg": "#ea999c",
+    "border": {
+      "type": "line",
+      "fg": "#737994"
+    }
+  },
+  "table": {
+    "fg": "#c6d0f5",
+    "items": {
+      "selected": {
+        "bg": "#ea999c",
+        "fg": "#414559"
+      },
+      "item": {
+        "fg": "#b5bfe2"
+      }
+    },
+    "border": {
+      "type": "line",
+      "fg": "#737994"
+    }
+  },
+  "footer": {
+    "fg": "#c6d0f5"
+  }
 }
-
-

@@ -1,35 +1,33 @@
 {
-	"name": "Catppuccin Macchiato (Pink)",
-	"author": "Catppuccin",
-	"title": {
-		"fg": "#cad3f5"	
-	},
-	"chart": {
-		"fg": "#f5bde6",
-		"border": {
-			"type": "line",
-			"fg": "#6e738d"
-		}
-	},
-	"table": {
-		"fg": "#cad3f5",
-		"items": {
-			"selected": {
-				"bg": "#f5bde6",
-				"fg": "#363a4f"
-			},
-			"item": {
-				"fg": "#b8c0e0"
-			}
-		},
-		"border": {
-			"type": "line",
-			"fg": "#6e738d"	
-		}
-	},
-	"footer": {
-		"fg": "#cad3f5"
-	}
+  "name": "Catppuccin Macchiato (Pink)",
+  "author": "Catppuccin",
+  "title": {
+    "fg": "#cad3f5"
+  },
+  "chart": {
+    "fg": "#f5bde6",
+    "border": {
+      "type": "line",
+      "fg": "#6e738d"
+    }
+  },
+  "table": {
+    "fg": "#cad3f5",
+    "items": {
+      "selected": {
+        "bg": "#f5bde6",
+        "fg": "#363a4f"
+      },
+      "item": {
+        "fg": "#b8c0e0"
+      }
+    },
+    "border": {
+      "type": "line",
+      "fg": "#6e738d"
+    }
+  },
+  "footer": {
+    "fg": "#cad3f5"
+  }
 }
-
-

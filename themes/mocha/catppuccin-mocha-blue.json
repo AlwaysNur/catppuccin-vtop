@@ -1,35 +1,33 @@
 {
-	"name": "Catppuccin Mocha (Blue)",
-	"author": "Catppuccin",
-	"title": {
-		"fg": "#cdd6f4"	
-	},
-	"chart": {
-		"fg": "#89b4fa",
-		"border": {
-			"type": "line",
-			"fg": "#6c7086"
-		}
-	},
-	"table": {
-		"fg": "#cdd6f4",
-		"items": {
-			"selected": {
-				"bg": "#89b4fa",
-				"fg": "#313244"
-			},
-			"item": {
-				"fg": "#bac2de"
-			}
-		},
-		"border": {
-			"type": "line",
-			"fg": "#6c7086"	
-		}
-	},
-	"footer": {
-		"fg": "#cdd6f4"
-	}
+  "name": "Catppuccin Mocha (Blue)",
+  "author": "Catppuccin",
+  "title": {
+    "fg": "#cdd6f4"
+  },
+  "chart": {
+    "fg": "#89b4fa",
+    "border": {
+      "type": "line",
+      "fg": "#6c7086"
+    }
+  },
+  "table": {
+    "fg": "#cdd6f4",
+    "items": {
+      "selected": {
+        "bg": "#89b4fa",
+        "fg": "#313244"
+      },
+      "item": {
+        "fg": "#bac2de"
+      }
+    },
+    "border": {
+      "type": "line",
+      "fg": "#6c7086"
+    }
+  },
+  "footer": {
+    "fg": "#cdd6f4"
+  }
 }
-
-

@@ -1,35 +1,33 @@
 {
-	"name": "Catppuccin Latte (Teal)",
-	"author": "Catppuccin",
-	"title": {
-		"fg": "#4c4f69"	
-	},
-	"chart": {
-		"fg": "#179299",
-		"border": {
-			"type": "line",
-			"fg": "#9ca0b0"
-		}
-	},
-	"table": {
-		"fg": "#4c4f69",
-		"items": {
-			"selected": {
-				"bg": "#179299",
-				"fg": "#ccd0da"
-			},
-			"item": {
-				"fg": "#5c5f77"
-			}
-		},
-		"border": {
-			"type": "line",
-			"fg": "#9ca0b0"	
-		}
-	},
-	"footer": {
-		"fg": "#4c4f69"
-	}
+  "name": "Catppuccin Latte (Teal)",
+  "author": "Catppuccin",
+  "title": {
+    "fg": "#4c4f69"
+  },
+  "chart": {
+    "fg": "#179299",
+    "border": {
+      "type": "line",
+      "fg": "#9ca0b0"
+    }
+  },
+  "table": {
+    "fg": "#4c4f69",
+    "items": {
+      "selected": {
+        "bg": "#179299",
+        "fg": "#ccd0da"
+      },
+      "item": {
+        "fg": "#5c5f77"
+      }
+    },
+    "border": {
+      "type": "line",
+      "fg": "#9ca0b0"
+    }
+  },
+  "footer": {
+    "fg": "#4c4f69"
+  }
 }
-
-

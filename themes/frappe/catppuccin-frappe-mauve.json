@@ -1,35 +1,33 @@
 {
-	"name": "Catppuccin Frappé (Mauve)",
-	"author": "Catppuccin",
-	"title": {
-		"fg": "#c6d0f5"	
-	},
-	"chart": {
-		"fg": "#ca9ee6",
-		"border": {
-			"type": "line",
-			"fg": "#737994"
-		}
-	},
-	"table": {
-		"fg": "#c6d0f5",
-		"items": {
-			"selected": {
-				"bg": "#ca9ee6",
-				"fg": "#414559"
-			},
-			"item": {
-				"fg": "#b5bfe2"
-			}
-		},
-		"border": {
-			"type": "line",
-			"fg": "#737994"	
-		}
-	},
-	"footer": {
-		"fg": "#c6d0f5"
-	}
+  "name": "Catppuccin Frappé (Mauve)",
+  "author": "Catppuccin",
+  "title": {
+    "fg": "#c6d0f5"
+  },
+  "chart": {
+    "fg": "#ca9ee6",
+    "border": {
+      "type": "line",
+      "fg": "#737994"
+    }
+  },
+  "table": {
+    "fg": "#c6d0f5",
+    "items": {
+      "selected": {
+        "bg": "#ca9ee6",
+        "fg": "#414559"
+      },
+      "item": {
+        "fg": "#b5bfe2"
+      }
+    },
+    "border": {
+      "type": "line",
+      "fg": "#737994"
+    }
+  },
+  "footer": {
+    "fg": "#c6d0f5"
+  }
 }
-
-

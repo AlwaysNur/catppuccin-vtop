@@ -1,46 +1,45 @@
 ---
 whiskers:
-  version: 2.1.0
+  version: ^2.5.1
   matrix:
     - flavor
     - accent
   filename: "themes/{{ flavor.identifier }}/catppuccin-{{ flavor.identifier }}-{{ accent }}.json"
+  hex_format: "#{{r}}{{g}}{{b}}{{z}}"
 ---
 
 {%- set accent = flavor.colors[accent] -%}
 
 {
-	"name": "Catppuccin {{ flavor.name }} ({{ accent.name }})",
-	"author": "Catppuccin",
-	"title": {
-		"fg": "#{{ text.hex }}"	
-	},
-	"chart": {
-		"fg": "#{{ accent.hex }}",
-		"border": {
-			"type": "line",
-			"fg": "#{{ overlay0.hex }}"
-		}
-	},
-	"table": {
-		"fg": "#{{ text.hex }}",
-		"items": {
-			"selected": {
-				"bg": "#{{ accent.hex }}",
-				"fg": "#{{ surface0.hex }}"
-			},
-			"item": {
-				"fg": "#{{ subtext1.hex }}"
-			}
-		},
-		"border": {
-			"type": "line",
-			"fg": "#{{ overlay0.hex }}"	
-		}
-	},
-	"footer": {
-		"fg": "#{{ text.hex }}"
-	}
+  "name": "Catppuccin {{ flavor.name }} ({{ accent.name }})",
+  "author": "Catppuccin",
+  "title": {
+    "fg": "{{ text.hex }}"
+  },
+  "chart": {
+    "fg": "{{ accent.hex }}",
+    "border": {
+      "type": "line",
+      "fg": "{{ overlay0.hex }}"
+    }
+  },
+  "table": {
+    "fg": "{{ text.hex }}",
+    "items": {
+      "selected": {
+        "bg": "{{ accent.hex }}",
+        "fg": "{{ surface0.hex }}"
+      },
+      "item": {
+        "fg": "{{ subtext1.hex }}"
+      }
+    },
+    "border": {
+      "type": "line",
+      "fg": "{{ overlay0.hex }}"
+    }
+  },
+  "footer": {
+    "fg": "{{ text.hex }}"
+  }
 }
-
-
