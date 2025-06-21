@@ -1,35 +1,33 @@
 {
-	"name": "Catppuccin Mocha (Teal)",
-	"author": "Catppuccin",
-	"title": {
-		"fg": "#cdd6f4"	
-	},
-	"chart": {
-		"fg": "#94e2d5",
-		"border": {
-			"type": "line",
-			"fg": "#6c7086"
-		}
-	},
-	"table": {
-		"fg": "#cdd6f4",
-		"items": {
-			"selected": {
-				"bg": "#94e2d5",
-				"fg": "#313244"
-			},
-			"item": {
-				"fg": "#bac2de"
-			}
-		},
-		"border": {
-			"type": "line",
-			"fg": "#6c7086"	
-		}
-	},
-	"footer": {
-		"fg": "#cdd6f4"
-	}
+  "name": "Catppuccin Mocha (Teal)",
+  "author": "Catppuccin",
+  "title": {
+    "fg": "#cdd6f4"
+  },
+  "chart": {
+    "fg": "#94e2d5",
+    "border": {
+      "type": "line",
+      "fg": "#6c7086"
+    }
+  },
+  "table": {
+    "fg": "#cdd6f4",
+    "items": {
+      "selected": {
+        "bg": "#94e2d5",
+        "fg": "#313244"
+      },
+      "item": {
+        "fg": "#bac2de"
+      }
+    },
+    "border": {
+      "type": "line",
+      "fg": "#6c7086"
+    }
+  },
+  "footer": {
+    "fg": "#cdd6f4"
+  }
 }
-
-
